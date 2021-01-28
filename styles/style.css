@@ -1,0 +1,57 @@
+/* 背景調整、字形調整 */
+html {
+	/* font-size: 10px; */
+	font-family: 'Yusei Magic', sans-serif;
+	background-color:#E1F92E;
+}
+
+h1 {
+	text-align:center;
+	font-size:40px;
+	color:white;
+	text-shadow:3px 3px 1px black;
+	padding-top:40px;
+}
+
+body {
+	width:600px;
+	margin:auto auto;
+	padding:0px 20px 20px 20px;
+	background-color:#F8A310;
+}
+
+img {
+	display:block;
+	margin:0 auto;
+}
+
+p, ul{
+	font-size:20px;
+	line-height:2;
+	letter-spacing:1px;
+}
+
+/* 按鈕特性的調整 (ID選擇器)*/
+
+#btn {
+	border:1px solid #88888;
+	background-color:red;
+}
+
+/* 虛擬選擇器(:hover虛擬選擇器)滑鼠碰到變色 */
+#btn:hover{
+	background-color:#888888;
+}
+
+/* (focus虛擬模擬器)目標取得焦點時，套用一組設定 */
+input:focus{
+	border:2px dashed blue;
+}
+.facebook a{
+	color:blue;
+}
+.nightmarket a{
+	color:red;
+}
+
+.apple{color:blue;}
